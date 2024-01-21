@@ -35,6 +35,8 @@ function operate(num1, num2, operator) {
 //Final function
 function compute() {
   console.log(operate(readNum1(), readNum2(), readOperator()));
+  let finalProduct = operate(readNum1(), readNum2(), readOperator());
+  display.value = finalProduct;
 }
 
 function updateDisplay() {
