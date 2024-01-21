@@ -1,0 +1,1 @@
+Goal: read the input field, get the values for both numbers and the operator 
